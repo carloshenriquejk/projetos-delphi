@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B0EDCC16-A29F-4B0C-8E1E-D2550B7ED90A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Buttons.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Embarcadero\Studio\Projects\Estoque\Estoque.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Buttons">
+        <MSBuild Projects="Buttons.dproj"/>
+    </Target>
+    <Target Name="Buttons:Clean">
+        <MSBuild Projects="Buttons.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Buttons:Make">
+        <MSBuild Projects="Buttons.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Estoque">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Estoque\Estoque.dproj"/>
+    </Target>
+    <Target Name="Estoque:Clean">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Estoque\Estoque.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Estoque:Make">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Estoque\Estoque.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Buttons;Estoque"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Buttons:Clean;Estoque:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Buttons:Make;Estoque:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

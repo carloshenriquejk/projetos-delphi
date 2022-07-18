@@ -1,0 +1,133 @@
+object frmCadResponsaveis: TfrmCadResponsaveis
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro De Responsaveis'
+  ClientHeight = 386
+  ClientWidth = 601
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 112
+    Top = 72
+    Width = 75
+    Height = 13
+    Caption = 'Nome Completo'
+  end
+  object Label5: TLabel
+    Left = 184
+    Top = 125
+    Width = 19
+    Height = 51
+    Caption = 'CPF'
+  end
+  object Label1: TLabel
+    Left = 48
+    Top = 8
+    Width = 238
+    Height = 29
+    Caption = 'Registro de Clientes'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 72
+    Width = 11
+    Height = 13
+    Caption = 'ID'
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 128
+    Width = 14
+    Height = 13
+    Caption = 'RG'
+  end
+  object Label6: TLabel
+    Left = 184
+    Top = 189
+    Width = 52
+    Height = 13
+    Caption = 'Operadora'
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 192
+    Width = 33
+    Height = 13
+    Caption = 'Celular'
+  end
+  object DBEdit1: TDBEdit
+    Left = 112
+    Top = 91
+    Width = 185
+    Height = 21
+    TabOrder = 0
+  end
+  object DBEdit3: TDBEdit
+    Left = 184
+    Top = 147
+    Width = 113
+    Height = 21
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 24
+    Top = 91
+    Width = 65
+    Height = 21
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 24
+    Top = 147
+    Width = 129
+    Height = 21
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 184
+    Top = 211
+    Width = 113
+    Height = 21
+    TabOrder = 4
+  end
+  object DBEdit6: TDBEdit
+    Left = 24
+    Top = 211
+    Width = 129
+    Height = 21
+    TabOrder = 5
+  end
+  object DBRadioGroup1: TDBRadioGroup
+    Left = 32
+    Top = 272
+    Width = 265
+    Height = 73
+    Caption = 'Parentesco'
+    Columns = 3
+    Items.Strings = (
+      'Pai'
+      'M'#227'e'
+      'Respons'#225'vel')
+    TabOrder = 6
+    Values.Strings = (
+      'Pai'
+      'M'#227'e'
+      'Responsavel')
+  end
+end

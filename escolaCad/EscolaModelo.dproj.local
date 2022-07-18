@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/20 13:45:56.000.018,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/26 10:03:30.000.637,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/26 17:54:45.000.593,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/26 17:56:18.000.305,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/04/26 17:56:18.000.305,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/04/26 17:56:40.000.141,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\UnitPrincipal.pas=C:\Users\Delphi\Documents\Delphi\escolaCad\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/04/26 17:56:40.000.142,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\UnitPrincipal.dfm=C:\Users\Delphi\Documents\Delphi\escolaCad\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/04/26 17:56:51.000.729,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Delphi\Documents\Delphi\escolaCad\Project1.dproj</Transaction>
+    <Transaction>2022/04/26 17:57:11.000.086,=C:\Users\Delphi\Documents\Delphi\escolaCad\Unit2.pas</Transaction>
+    <Transaction>2022/04/26 17:58:16.000.464,C:\Users\Delphi\Documents\Delphi\escolaCad\Unit2.dfm=C:\Users\Delphi\Documents\Delphi\escolaCad\unitCadResponsavel.dfm</Transaction>
+    <Transaction>2022/04/26 17:58:16.000.464,C:\Users\Delphi\Documents\Delphi\escolaCad\Unit2.pas=C:\Users\Delphi\Documents\Delphi\escolaCad\unitCadResponsavel.pas</Transaction>
+    <Transaction>2022/04/26 17:58:39.000.824,C:\Users\Delphi\Documents\Delphi\escolaCad\Project1.dproj=C:\Users\Delphi\Documents\Delphi\escolaCad\EscolaModelo.dproj</Transaction>
+    <Transaction>2022/04/26 17:59:02.000.219,C:\Users\Delphi\Documents\Delphi\escolaCad\unitCadResponsavel.dfm=C:\Users\Delphi\Documents\Delphi\escolaCad\responsaveis\unitCadResponsavel.dfm</Transaction>
+    <Transaction>2022/04/26 17:59:02.000.219,C:\Users\Delphi\Documents\Delphi\escolaCad\unitCadResponsavel.pas=C:\Users\Delphi\Documents\Delphi\escolaCad\responsaveis\unitCadResponsavel.pas</Transaction>
+    <Transaction>2022/04/27 08:45:12.000.537,=C:\Users\Delphi\Documents\Delphi\escolaCad\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 08:46:19.000.877,C:\Users\Delphi\Documents\Delphi\escolaCad\Unit1.pas=C:\Users\Delphi\Documents\Delphi\escolaCad\dm\UnitDM.pas</Transaction>
+    <Transaction>2022/04/27 08:46:19.000.877,C:\Users\Delphi\Documents\Delphi\escolaCad\Unit1.dfm=C:\Users\Delphi\Documents\Delphi\escolaCad\dm\UnitDM.dfm</Transaction>
+    <Transaction>2022/04/27 16:53:02.000.828,=C:\Users\Administrador\Documents\projects\escolaCad\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

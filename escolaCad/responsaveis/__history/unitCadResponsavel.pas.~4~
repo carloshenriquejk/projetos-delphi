@@ -1,0 +1,39 @@
+unit unitCadResponsavel;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.DBCtrls,
+  Vcl.Mask;
+
+type
+  TfrmCadResponsaveis = class(TForm)
+    DBEdit1: TDBEdit;
+    Label2: TLabel;
+    Label5: TLabel;
+    DBEdit3: TDBEdit;
+    Label1: TLabel;
+    DBEdit2: TDBEdit;
+    Label3: TLabel;
+    DBEdit4: TDBEdit;
+    Label4: TLabel;
+    Label6: TLabel;
+    DBEdit5: TDBEdit;
+    DBEdit6: TDBEdit;
+    Label7: TLabel;
+    DBRadioGroup1: TDBRadioGroup;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadResponsaveis: TfrmCadResponsaveis;
+
+implementation
+
+{$R *.dfm}
+
+end.

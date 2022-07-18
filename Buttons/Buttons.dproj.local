@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/02 15:44:41.000.733,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 15:45:13.000.390,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\UButtons.dfm=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/05/02 15:45:13.000.390,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\UButtons.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 15:45:26.000.484,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Buttons.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/05/02 15:45:43.000.035,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 15:46:20.000.454,C:\Users\Administrador\Documents\projects\Buttons\UDM.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 15:46:20.000.454,C:\Users\Administrador\Documents\projects\Buttons\UDM.dfm=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/05/02 15:46:22.000.346,C:\Users\Administrador\Documents\projects\Buttons\UButtons.dfm=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\UButtons.dfm</Transaction>
+    <Transaction>2022/05/02 15:46:22.000.346,C:\Users\Administrador\Documents\projects\Buttons\UButtons.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\UButtons.pas</Transaction>
+    <Transaction>2022/05/02 15:46:24.000.172,C:\Users\Administrador\Documents\projects\Buttons\Buttons.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Buttons.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
