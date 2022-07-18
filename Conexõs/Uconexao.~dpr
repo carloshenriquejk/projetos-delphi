@@ -1,0 +1,13 @@
+program Uconexao;
+
+uses
+  Forms,
+  UConexoa in 'UConexoa.pas' {BtnSend};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TBtnSend, BtnSend);
+  Application.Run;
+end.

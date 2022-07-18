@@ -1,0 +1,53 @@
+unit UConexoa;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons, BDConexao, Menus;
+
+type
+  TBtnSend = class(TForm)
+    BtnSomar: TBitBtn;
+    Valor1: TEdit;
+    Valor2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    ValResult: TEdit;
+    MainMenu: TMainMenu;
+    DataModule11: TMenuItem;
+    Novo1: TMenuItem;
+    Abrir1: TMenuItem;
+    Fechar1: TMenuItem;
+    Configuraes1: TMenuItem;
+    Usuario1: TMenuItem;
+    procedure BtnSomarClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  BtnSend: TBtnSend;
+
+implementation
+
+{$R *.dfm}
+
+{ TBtnSend }
+
+
+
+{ TBtnSend }
+
+
+
+procedure TBtnSend.BtnSomarClick(Sender: TObject);
+begin
+ ValResult.Text := IntToStr(DataModule1.Somar(StrToInt(valor1.Text), StrToInt(Valor2.Text) ))
+end;
+
+end.
