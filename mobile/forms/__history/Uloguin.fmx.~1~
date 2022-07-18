@@ -1,0 +1,211 @@
+object FormLoguin: TFormLoguin
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 511
+  ClientWidth = 405
+  Fill.Kind = Solid
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TabPrincipal: TTabControl
+    Align = Client
+    Size.Width = 405.000000000000000000
+    Size.Height = 462.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      405s
+      462s
+      405s
+      462s)
+    object TabLoguin: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabLoguin'
+      object Layout1: TLayout
+        Align = Center
+        Size.Width = 326.000000000000000000
+        Size.Height = 386.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object GridPanelLayout1: TGridPanelLayout
+          Align = Client
+          Size.Width = 326.000000000000000000
+          Size.Height = 386.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 100.000000000000000000
+            end
+            item
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = Layout2
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 20.000000019506650000
+            end
+            item
+              Value = 20.000000009443160000
+            end
+            item
+              Value = 19.999999987928750000
+            end
+            item
+              Value = 19.999999986478260000
+            end
+            item
+              Value = 19.999999996643190000
+            end>
+          object Layout2: TLayout
+            Anchors = []
+            Position.X = 138.000000000000000000
+            Position.Y = 13.599998474121090000
+            TabOrder = 0
+            object TLayout
+              Anchors = []
+              Position.Y = 80.000000000000000000
+              TabOrder = 0
+              object TLayout
+                Anchors = []
+                Position.Y = 80.000000000000000000
+                TabOrder = 0
+                object TLayout
+                  Anchors = []
+                  Position.Y = 72.000000000000000000
+                  TabOrder = 0
+                  object TLayout
+                    Anchors = []
+                    Position.Y = 80.000000000000000000
+                    TabOrder = 0
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+    object TabCadastro: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabCadastro'
+    end
+  end
+  object LayTop: TLayout
+    Align = Top
+    Size.Width = 405.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object imgLogo: TImageViewer
+      Align = Left
+      Size.Width = 49.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Bitmap.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        0438494441546843ED99DB4B14511CC7E70CEEB6996526590FD14B0F16586141
+        E83F6097178DFE8340A2C824B2827A8A5EBA50842441977FA0B2DC22C2976E14
+        1445413D154289916159519A33B3744EDF33FBDBF1CCDEDC99D999F5613F709C
+        33E7777EB7B3E7B6AB56A54A30183DCB8210A24E58D64E8DB14EBCB6689CAFB2
+        05BAFE197FDFA14392C5E3438CB129BB7DBE80C0756E59FBB8697E4502A25841
+        9F71F4DD2B7548BDB2C8514740B7F3055BAC20917B9CF32564A63220F838378C
+        27AEC02CEB234A1F026C41808BEC629AEBD17658CAD4BEC2301EC1468CCC450F
+        82BFE4046E185C98E6299914897340320B90CC693509BC5F2471B4C0F12604FD
+        CF09C4B20E91684EE427E4E8C1066C6D24517420882125F85BD45C3241F50381
+        A9B01823374323C8519A495432D0592775C9C68C5C2B240A1F9E4AEDC88C1ECA
+        2B6AF60C46FE75C60E6C6EA3664FF8DB8B85584D354D70EE3B01E0E832C5A617
+        FC1E260DF48467F6836ADE11E23BD534A1698D54F584AF0470FF98A4AAC49763
+        1BC69653CD958C177C2520181BA32A62609BA9EA87595D5D776C868E7D7D5076
+        219CA86B49543272177216B061FC8D741792600771EE3FB24ECD25039D3B8AFE
+        203547074ECF568C9C7A12F791684ED0F788A3973E893790285AE07C2013881D
+        8C699E91F71D12E780A997409FB3593AFD248E1EBA8D3E760564599FE408CB51
+        956BC55E2FA8A3ED28CAA8ABAF693E84BC72B751895C7C086C500DAC9482E0EF
+        42B7B2DF073260141992D883A0C6F305AB16F4F982D22D75483D1065FD4E6C6F
+        85A95417CE864E9CACEBB3BE13BF45A6492D164BEABA3E6DB757A9527902AF01
+        B918452AD5866A075EDA70396AC6DC6F64BAEEDA6170EDFE8DB530893EEFD1E7
+        399A86592CF602EB05CBC53FBE1340E0B508BC1BD51E1859936EF506221FC1A3
+        5FABA9B98A853D936EF586AF047078EDC2685E80727A9709081219639C1F6089
+        C41035958CA70430EA098CFA00947653930DA6C74F24348C0EF7F1FA86C5E3DF
+        F09CC0F4E0B63CFD2B5C13CE81263C5B3185B6639A6DC5345B2AE51990C8157C
+        1A3DF8344C6A2A1FF2D4B47F88520F25C39890D706045847DD4A46EAD8D70BD8
+        70D934CD07653FA1E5C8E7B9F324E1681975F10D6CD7C3D60D97EDF41D29415D
+        820307D75C0E2CEB181CF85A3FF990B660F378968FCB240E865CB02EC3A67982
+        446507B64FAABE3065BB48E40F8C4C2D46624C317A9D44A1017FCE74427D14D3
+        742189BC0303BD8E31C39884B115240A0D0CDA4AE94B49623F89BC41F3724431
+        D44BA2D081AF838ADF0FD4EC0D28B63B460C630A09B9F6EC3081AF06F89C5692
+        D842A21C8AFD2ED4414F0D07CE4D1C4ABFE83574E04B1E8CEA2FD64E2CD9144E
+        405ECC088CC833AA46C9537ACA00DAA99643E104E4AD7296203FE0FA43889754
+        CB8EC545C1C30873F00FA68EE72B4218C8ABB89E48D4D3AB8B626BA0869EF381
+        82FF772B3685CE23738BDE2A861D0363E7E8B54A95F2A269FF012AE48B5BCC78
+        5F000000000049454E44AE426082}
+      BitmapScale = 0.959999978542327900
+      Viewport.Width = 29.000000000000000000
+      Viewport.Height = 29.000000000000000000
+    end
+    object btnLoguin: TSpeedButton
+      Align = Right
+      StyledSettings = []
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 225.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 29.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Loguin'
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF7F8080
+      OnClick = btnLoguinClick
+    end
+    object btnCadastro: TSpeedButton
+      Align = Right
+      StyledSettings = []
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 315.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 29.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Cadastro'
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF7F8080
+      OnClick = btnCadastroClick
+    end
+  end
+end
